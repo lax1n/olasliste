@@ -1,0 +1,54 @@
+@import 'shared/variables';
+
+.vcenter{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-brand-color{
+  color: $brand-primary;
+}
+
+.btn-brand-color{
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  color: rgb(255, 255, 255);
+}
+
+.btn-brand-color:hover,
+.btn-brand-color:focus,
+.btn-brand-color.focus,
+.btn-brand-color:active,
+.btn-brand-color.active,
+.open > .dropdown-toggle.btn-brand-color {
+  color: rgb(255, 255, 255);
+  background-color: $brand-primary-lighter;
+  border-color: $brand-primary-lighter;
+}
+
+.hpanel.hbrand .panel-body {
+  border-top: 2px solid $brand-primary;
+}
+
+.full .progress-bar-brand {
+  background-color: $brand-primary;
+  border-right: 4px solid $brand-primary-lighter;
+}
+
+.progress-bar-brand {
+  border-right: 4px solid $brand-primary-lighter;
+}
+
+.img-small{
+  width: 40px;
+  height: auto;
+}
+
+.p-l-r-20{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.p-r-remove{
+  padding-right: 0px !important;
+}

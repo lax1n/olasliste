@@ -12,5 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require ./vendor/bootstrap-datepicker-min
+//= require ./vendor/autosize.min.js
+//= require ./vendor/linkify.min.js
+//= require ./vendor/linkify-string.min.js
+//= require ./vendor/purify.min.js
+//= require ./bootstrap/bootstrap.min.js
+//= require homer.js
+//= require theme_extras
+//= require lightbox
+//= require react
+//= require react_ujs
+//= require components
+

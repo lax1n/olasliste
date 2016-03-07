@@ -1,0 +1,36 @@
+@import 'shared/variables';
+
+.filepickable{
+  cursor: pointer;
+}
+
+.color-line {
+  background: $brand-primary;
+  height: 6px;
+  background-image: none !important;
+}
+
+#logo{
+	border-right: 1px solid #e4e5e7;
+    border-left: 1px solid #e4e5e7;
+}
+
+#wrapper{
+  margin: 0;
+}
+
+.top-menu{
+	.navbar-nav > li > a {
+  	padding: 15px 20px;
+  	font-size: 15px;
+	}
+}
+
+.top-menu nav div{
+  display: inline-block !important;
+  margin: auto;
+}
+
+.chat-users{
+  margin-left: 0;
+}

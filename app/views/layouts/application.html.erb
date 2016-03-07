@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Olasliste</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olasliste</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="boxed-wrapper">
+    <%=render 'layouts/top_bar'%>
+    <div id="flash-messages">
+      <% flash.each do |type, message| %>
+          <% message.each do |msg| %>
+              <%= bootstrap_alert type do %>
+                  <%= msg %>
+              <% end %>
+          <% end %>
+      <% end %>
+    </div>
 
-<%= yield %>
-
+    <!-- Main Wrapper -->
+    <div id="wrapper" class="no-borders">
+      <%= yield :header %>
+      <div class='content'>
+        <%= yield %>
+      </div>
+    </div> <!-- end wrapper -->
+  </div> <!-- end boxed-wrapper -->
 </body>
 </html>
