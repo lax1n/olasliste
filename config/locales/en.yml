@@ -20,4 +20,29 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  first_name: "First name"
+  last_name: "Last name"
+  username: "Username"
+  email: "Email"
+  password: "Password"
+  repeat_password: "Repeat password"
+  registration: "Registration"
+  register: "Register"
+  cancel: "Cancel"
+  save_changes: "Save changes"
+  create: "Create"
+  post_updated_successfully: "Post updated successfully"
+  post_was_not_deleted: "Post was not deleted"
+  post_deleted: "Post deleted"
+  please_check_the_following: "Please check the following"
+  posts:
+    headline: "Give the post a title"
+    headline_placeholder: "What's the name of the item?"
+    description: "Description"
+    description_placeholder: "Tell us about your item..."
+    delivery_details: "Delivery details"
+    delivery_details_placeholder: "How do you want to ship the item?"
+    privacy: "Privacy"
+    show_phone_number: "Show phone number"
+    price: "Price"
+
